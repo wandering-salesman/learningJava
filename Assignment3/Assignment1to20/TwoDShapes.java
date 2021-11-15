@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class Shapes {
+public class TwoDShapes {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         System.out.println("Circle:");
         Circle circ1 = new Circle();
         System.out.println("Radius of default circle: " + circ1.getRadius());
@@ -12,7 +13,7 @@ public class Shapes {
         System.out.println("New radius is: " + circ1.getRadius());
         System.out.println("New area is: " + circ1.area());
         System.out.println("New perimeter is: " + circ1.perimeter());
-        
+
         System.out.println("\n\n");
 
         System.out.println("Rectangle:\n");
@@ -44,19 +45,8 @@ public class Shapes {
         System.out.println("New area is: " + tri1.area());
         System.out.println("New perimeter is: " + tri1.permieter());
         System.out.println("Using the getClass() method: " + tri1.getClass());
+
+        input.close();
     }
 
-    static Scanner input = new Scanner(System.in);
-
-    public static int takeint() {
-        return input.nextInt();
-    }
-
-    public static float takefloat() {
-        return input.nextFloat();
-    }
-
-    public static String takeString() {
-        return input.next();
-    }
 }
