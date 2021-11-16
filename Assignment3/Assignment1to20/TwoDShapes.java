@@ -1,3 +1,5 @@
+package Assignment1to20;
+
 import java.util.Scanner;
 
 public class TwoDShapes {

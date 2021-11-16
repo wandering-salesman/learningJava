@@ -1,3 +1,5 @@
+package Assignment1to20;
+
 public class Triangle {
     private float a;
     private float b;

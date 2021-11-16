@@ -1,3 +1,5 @@
+package Assignment1to20;
+
 // Class has been written with the assumption that
 // the prism has a equilateral triangular cross section. 
 // But can be easily implemented to other shapes as well.
