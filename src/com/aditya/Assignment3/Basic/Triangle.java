@@ -1,4 +1,4 @@
-package Assignment1to20;
+package com.aditya.Assignment3.Basic;
 
 public class Triangle {
     private float a;
@@ -50,7 +50,7 @@ public class Triangle {
         return (float) Math.sqrt((s * (s - a) * (s - b) * (s - c)));
     }
 
-    float permieter() {
+    float perimeter() {
         return a + b + c;
     }
 }

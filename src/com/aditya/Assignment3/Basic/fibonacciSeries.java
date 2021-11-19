@@ -1,3 +1,4 @@
+package com.aditya.Assignment3.Basic;
 import java.util.Scanner;
 public class fibonacciSeries {
     public static void main(String[] args) {

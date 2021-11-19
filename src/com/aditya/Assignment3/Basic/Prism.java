@@ -1,7 +1,7 @@
-package Assignment1to20;
+package com.aditya.Assignment3.Basic;
 
 // Class has been written with the assumption that
-// the prism has a equilateral triangular cross section. 
+// the prism has an equilateral triangular cross-section.
 // But can be easily implemented to other shapes as well.
 public class Prism {
     private float side;
@@ -38,5 +38,8 @@ public class Prism {
     }
     public float volume() {
         return (float)((1/Math.sqrt(3))*side*side*height);
+    }
+    public float volumeOfPyramid(float height) {
+        return (float) (side*side*height/3.0);
     }
 }

@@ -1,4 +1,4 @@
-package Assignment1to20;
+package com.aditya.Assignment3.Basic;
 
 import java.util.Scanner;
 
@@ -39,13 +39,13 @@ public class TwoDShapes {
 
         Triangle tri1 = new Triangle();
         System.err.println("Default area of triangle: " + tri1.area());
-        System.out.println("Default perimeter of triangle: " + tri1.permieter());
+        System.out.println("Default perimeter of triangle: " + tri1.perimeter());
         System.out.print("Now set sides of triangle: ");
         tri1.setA(input.nextFloat());
         tri1.setB(input.nextFloat());
         tri1.setC(input.nextFloat());
         System.out.println("New area is: " + tri1.area());
-        System.out.println("New perimeter is: " + tri1.permieter());
+        System.out.println("New perimeter is: " + tri1.perimeter());
         System.out.println("Using the getClass() method: " + tri1.getClass());
 
         input.close();

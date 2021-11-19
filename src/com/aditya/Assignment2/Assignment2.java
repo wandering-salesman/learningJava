@@ -1,14 +1,16 @@
+package com.aditya.Assignment2;
+
 import java.util.Scanner;
 
 /**
- * Assignment2
+ * com.aditya.Assignment2
  */
 
 public class Assignment2 {
     public static void main(String[] args) {
         System.out.println("Program starts here.");
         Scanner input = new Scanner(System.in);
-        char k = 'y';
+        char k;
         int choice;
         do {
             System.out.println("1. OddEven.");
@@ -24,55 +26,45 @@ public class Assignment2 {
             choice = input.nextInt();
             System.out.println("\n");
             switch (choice) {
-            case 1:
-                System.out.println("\nOdd and even numbers: ");
-                oddOrEven();
-                break;
-
-            case 2:
-                System.out.println("Greeting: ");
-                System.out.print("Enter your name: ");
-                input.next();
-                break;
-
-            case 3:
-                System.err.println("Simple interest: ");
-                simpleInterest();
-                break;
-
-            case 4:
-                System.out.println("Calculator: ");
-                calculator();
-                break;
-
-            case 5:
-                System.out.println("Max of two numbers: ");
-                max();
-                break;
-
-            case 6:
-                System.out.println("Rupee to USD: ");
-                rupeeToUSD();
-                break;
-
-            case 7:
-                System.out.println("Fibonacci series: ");
-                fibonacciSeries();
-                break;
-
-            case 8:
-                System.out.println("Palindrome: ");
-                palindrome();
-                break;
-
-            case 9:
-                System.out.println("Armstrong number: ");
-                armstrongNumber();
-                break;
-
-            default:
-                System.out.println("Invalid Input");
-                break;
+                case 1 -> {
+                    System.out.println("\nOdd and even numbers: ");
+                    oddOrEven();
+                }
+                case 2 -> {
+                    System.out.println("Greeting: ");
+                    System.out.print("Enter your name: ");
+                    String name = input.next();
+                    greeting(name);
+                }
+                case 3 -> {
+                    System.err.println("Simple interest: ");
+                    simpleInterest();
+                }
+                case 4 -> {
+                    System.out.println("Calculator: ");
+                    calculator();
+                }
+                case 5 -> {
+                    System.out.println("Max of two numbers: ");
+                    max();
+                }
+                case 6 -> {
+                    System.out.println("Rupee to USD: ");
+                    rupeeToUSD();
+                }
+                case 7 -> {
+                    System.out.println("Fibonacci series: ");
+                    fibonacciSeries();
+                }
+                case 8 -> {
+                    System.out.println("Palindrome: ");
+                    palindrome();
+                }
+                case 9 -> {
+                    System.out.println("Armstrong number: ");
+                    armstrongNumber();
+                }
+                default -> System.out.println("Invalid Input");
             }
 
             System.out.print("\n\nContinue?: ");
@@ -90,7 +82,6 @@ public class Assignment2 {
         } else {
             System.out.println(n + " is odd");
         }
-        return;
     }
 
     static void greeting(String name) {
@@ -176,9 +167,11 @@ public class Assignment2 {
         Scanner input = new Scanner(System.in);
 
         n = input.nextInt();
+/*
         if (n == 1) {
             term = 0;
         }
+*/
         if (n == 2) {
             term = 1;
         }
@@ -201,6 +194,7 @@ public class Assignment2 {
         for (int i = 0; i < inp.length() - 1; i++) {
             if (inp.charAt(i) != inp.charAt(inp.length() - 1 - i)) {
                 res = false;
+                break;
             }
         }
         if (res) {
@@ -212,7 +206,7 @@ public class Assignment2 {
 
     static void armstrongNumber() {
         Scanner input = new Scanner(System.in);
-        int sum = 0;
+        int sum;
         int temp;
         int copy;
 

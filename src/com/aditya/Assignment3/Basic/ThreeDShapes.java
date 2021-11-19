@@ -1,4 +1,4 @@
-package Assignment1to20;
+package com.aditya.Assignment3.Basic;
 
 import java.util.Scanner;
 public class ThreeDShapes {

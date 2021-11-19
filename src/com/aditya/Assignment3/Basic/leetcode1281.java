@@ -1,3 +1,4 @@
+package com.aditya.Assignment3.Basic;
 // class Solution {
 class leetcode1281 {
     public int subtractProductAndSum(int n) {
