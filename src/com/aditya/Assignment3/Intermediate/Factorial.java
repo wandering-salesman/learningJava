@@ -3,6 +3,7 @@ package com.aditya.Assignment3.Intermediate;
 import java.util.Scanner;
 public class Factorial  {
     public static void main(String[] args) {
+        //Could be done by the use of recursion as well, would try to do so in respective section
         int num;
         Scanner input = new Scanner(System.in);
         System.out.println("Factorial program: ");
