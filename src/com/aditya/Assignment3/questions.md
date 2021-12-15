@@ -21,8 +21,8 @@
 19. - [x] [Curved Surface Area Of Cylinder](./Basic/Cylinder.java)
 20. - [x] [Total Surface Area Of Cube](./Basic/Cuboid.java)
 21. - [x] [Fibonacci Series In Java Programs](./Basic/fibonacciSeries.java)
-22. - [x] [Subtract the Product and Sum of Digits of an Integer](./Basic/leetcode1281.java)
-    [Question](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | [Solution](./Basic/leetcode1281.java)
+22. - [x] Subtract the Product and Sum of Digits of an Integer
+[Question](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | [Solution](./Basic/leetcode1281.java)
 23. - [x] [Input a number and print all the factors of that number (use loops).](./Basic/factors.java)
 24. - [x] [Take integer inputs till the user enters 0 and print the sum of all numbers](./Basic/sumTill0.java)
 25. - [x] [Take integer inputs till the user enters 0 and print the largest number from all.](./Basic/maxTill0.java)
