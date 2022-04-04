@@ -9,9 +9,9 @@ public class leetcode1732 {
         int max = 0;
         int altitude = 0;
 
-        for(int i = 0; i < gain.length; i++) {
-            altitude = gain[i] + altitude;
-            if(altitude > max) {
+        for (int j : gain) {
+            altitude = j + altitude;
+            if (altitude > max) {
                 max = altitude;
             }
         }

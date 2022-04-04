@@ -1,6 +1,6 @@
 package com.aditya.Assignment5.Easy;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class leetcode1512 {
     public static void main(String[] args) {

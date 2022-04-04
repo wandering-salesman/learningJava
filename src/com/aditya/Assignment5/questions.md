@@ -60,10 +60,10 @@
     |
     [Solution](./Easy/leetcode832.java)
 
-14. - [ ] Cells with Odd Values in a Matrix
+14. - [x] Cells with Odd Values in a Matrix
     [Question](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)
     |
-    [Solution](./Easy/)
+    [Solution](./Easy/leetcode1252.java)
 
 15. - [ ] Matrix Diagonal Sum
     [Question](https://leetcode.com/problems/matrix-diagonal-sum/)

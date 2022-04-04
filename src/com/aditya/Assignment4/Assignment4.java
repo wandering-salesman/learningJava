@@ -1,7 +1,7 @@
 package com.aditya.Assignment4;
 
 import java.util.Scanner;
-import java.util.Vector;
+// import java.util.Vector;
 
 public class Assignment4 {
     public static void main(String[] args) {
